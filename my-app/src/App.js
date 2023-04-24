@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Update comming ...
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://clipground.com/images/math-genius-clipart-3.png"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          MATH MAGICIANS !!! 
+          Learn React
         </a>
       </header>
     </div>
