@@ -19,7 +19,6 @@
   },
   "eslintConfig": {
     "extends": [
-      "my-app/jest",
       "my-app"
     ]
   },
