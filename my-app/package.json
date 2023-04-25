@@ -17,11 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "my-app"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
