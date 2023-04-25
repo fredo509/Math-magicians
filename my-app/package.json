@@ -17,7 +17,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
+  "eslintConfig": {
+    "extends": [
+      "my-app/babelrc"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
