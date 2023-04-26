@@ -1,7 +1,7 @@
 body {
- height: 100vh;
- width: 100%;
- margin: 0;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
 }
 
 header {
@@ -33,9 +33,9 @@ section {
   background-color: gray;
   color: white;
   box-sizing: border-box;
- text-align: right;
- font-size: 22px;
- padding-right: 5px;
+  text-align: right;
+  font-size: 22px;
+  padding-right: 5px;
 }
 
 #keyboard {
@@ -45,7 +45,7 @@ section {
 }
 
 #area {
-  grid-area: 5/ 1 / auto / span 2
+  grid-area: 5/ 1 / auto / span 2;
 }
 
 .btnBox {
