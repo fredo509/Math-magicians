@@ -1,8 +1,12 @@
+import displayLogo from './displayLogo';
+
 export default function theCalculator() {
   return (
     <body>
       <header>
-        <p>Math Magicians :) </p>
+        <p>
+          {displayLogo()}
+        </p>
       </header>
       <main>
         <section>

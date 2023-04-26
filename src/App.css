@@ -30,7 +30,7 @@ section {
 #screen {
   width: 100%;
   height: 50px;
-  background-color: gray;
+  background-color: #858694;
   color: white;
   box-sizing: border-box;
   text-align: right;
@@ -49,8 +49,8 @@ section {
 }
 
 .btnBox {
-  background-color: rgb(221, 221, 215);
-  border: 1px solid gray;
+  background-color: #e0e0e0;
+  border: 1px solid #858684;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -64,5 +64,5 @@ button {
 }
 
 .orj {
-  background-color: orangered;
+  background-color: #f5923e;
 }
