@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import displayLogo from './displayLogo';
 import calculate from '../logic/calculate';
-import Quote from './fetchApi';
 
 export default function theCalculator() {
   // eslint-disable-next-line
@@ -24,7 +23,6 @@ export default function theCalculator() {
       </header>
 
       <main>
-        {Quote()}
         <section>
           <div id="screen">
             {state.total}

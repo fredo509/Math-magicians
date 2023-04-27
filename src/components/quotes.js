@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function Quote() {
+function Quotes() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -26,7 +26,7 @@ function Quote() {
       }
     };
     fetchData();
-  }, []);
+  }, [setData, setError, setLoading]);
 
   if (loading) {
     return <div>Loading...</div>;
@@ -49,4 +49,4 @@ function Quote() {
   );
 }
 
-export default Quote;
+export default Quotes;
