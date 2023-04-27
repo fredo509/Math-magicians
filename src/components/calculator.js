@@ -41,7 +41,7 @@ export default function theCalculator() {
               <button id="btnModulo" type="button" onClick={eventCalculation} value="%"> % </button>
             </div>
             <div className="btnBox orj">
-              <button id="btnDivision" type="button" onClick={eventCalculation} value=" ÷"> ÷ </button>
+              <button id="btnDivision" type="button" onClick={eventCalculation} value="÷"> ÷ </button>
             </div>
             <div className="btnBox">
               <button id="btnSept" type="button" onClick={eventCalculation} value="7"> 7 </button>
