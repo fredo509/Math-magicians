@@ -53,14 +53,19 @@ section {
   border: 1px solid #858684;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 0;
 }
 
 button {
-  width: 30px;
+  width: 100%;
   background: none;
   border: none;
   font-size: 17px;
+  padding: 10px;
+}
+
+button:active {
+  background-color: rgb(247, 128, 128);
 }
 
 .orj {
