@@ -21,6 +21,7 @@ export default function theCalculator() {
           {displayLogo()}
         </p>
       </header>
+
       <main>
         <section>
           <div id="screen">
