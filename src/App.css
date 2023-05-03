@@ -2,6 +2,7 @@ body {
   height: 100vh;
   width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 main {
   margin: auto;
   display: flex;
-  width: 95%;
+  width: 90%;
   height: 80vh;
   justify-content: flex-end;
   align-items: center;
@@ -85,4 +86,43 @@ button:active {
   margin-bottom: 20px;
   height: auto;
   box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 10vh;
+  padding: 7px;
+  align-items: center;
+}
+
+.flex {
+  position: absolute;
+  right: 20px;
+}
+
+.nl {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  padding: 10px;
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  font-weight: 100;
+  margin-left: 10px;
 }
