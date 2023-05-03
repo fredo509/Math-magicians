@@ -76,15 +76,15 @@ button:active {
 }
 
 .quoteBox {
-  width: 50%;
+  text-align: center;
   font-style: italic;
   font-size: small;
-  position: absolute;
-  padding: 10px;
-  bottom: 60%;
-  left: 4%;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
   height: auto;
+  position: absolute;
+  bottom: 45%;
+  width: 100%;
   box-sizing: border-box;
 }
 
