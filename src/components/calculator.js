@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import displayLogo from './displayLogo';
 import calculate from '../logic/calculate';
 
 export default function theCalculator() {
@@ -16,13 +15,8 @@ export default function theCalculator() {
 
   return (
     <body>
-      <header>
-        <p>
-          {displayLogo()}
-        </p>
-      </header>
-
       <main>
+        <h1 className="title">Let&#39;s do some math</h1>
         <section>
           <div id="screen">
             {state.total}

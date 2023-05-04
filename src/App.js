@@ -1,15 +1,14 @@
 // import logo from './logo.svg';
+// eslint-disable-next-line
+import { Outlet } from 'react-router';
 import './App.css';
-import theCalculator from './components/calculator';
-import Quotes from './components/quotes';
+import Home from './pages/home';
 
-function App() {
+export default function App() {
   return (
     <>
-      {theCalculator()}
-      {Quotes()}
+      <Home />
+      <Outlet />
     </>
   );
 }
-
-export default App;
