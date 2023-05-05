@@ -24,5 +24,4 @@ describe('operate function', () => {
   test('throws an error when the operation is unknown', () => {
     expect(() => operate(1, 2, '&')).toThrow("Unknown operation '&'");
   });
-
 });
