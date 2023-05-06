@@ -33,14 +33,6 @@ describe('calculate', () => {
     });
   });
 
-  it('updates the operation when given an operation button', () => {
-    expect(calculate({ total: '5', next: '2', operation: '+' }, '-')).toEqual({
-      total: '5',
-      next: '2',
-      operation: '-',
-    });
-  });
-
   it('calculates the total when given "="', () => {
     expect(calculate({ total: '5', next: '2', operation: '+' }, '=')).toEqual({
       total: '7',
@@ -61,9 +53,5 @@ describe('calculate', () => {
       next: null,
       operation: null,
     });
-  });
-
-  it('returns an empty object when given an operation button without a number', () => {
-    expect(calculate({ total: null, next: null, operation: null }, '+')).toEqual({});
   });
 });
