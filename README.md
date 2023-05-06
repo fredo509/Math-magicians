@@ -21,7 +21,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -71,8 +70,8 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+ [Live demo](https://fredo.netlify.app/)
 
-- coming soon...
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,11 +195,11 @@ If you like this project please give me a star an let's connect
 
 I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+
 
 <!--
 - **[Question_1]**
